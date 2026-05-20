@@ -40,6 +40,14 @@
     "use_in_project": "Reference path for recognised HBOT indication review."
   },
   {
+    "title": "Hyperbaric Oxygen Therapy: Ultimate Guide to HBOT (2025)",
+    "publisher": "Bionik Wellness",
+    "url": "https://bionikwellness.com.au/hyperbaric-oxygen-therapy-guide/",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-21",
+    "use_in_project": "Australian HBOT context for session counts, private pricing ranges, hospital/clinic access and cost-barrier framing."
+  },
+  {
     "title": "Aura Geode PADS architecture notes",
     "publisher": "Local project source document",
     "url": "Private local source document; do not publish the local filesystem path.",
