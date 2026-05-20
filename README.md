@@ -2,7 +2,7 @@
 
 A public-facing, Markdown-first builder toolkit for Straddie / Minjerribah health and wellbeing project planning.
 
-The toolkit helps venues, community groups, health partners, sponsors and public agencies collect structured planning notes for HBOT, sauna, food, movement, access, grants, media and evidence review. Each builder creates a clean `.md` file that can be copied, downloaded and handed to an agent, grant writer, venue partner, noticeboard editor or project reviewer.
+The public front door now keeps the workflow small: start a Straddie wellbeing co-op note, check the venue, prepare funding, publish a public notice and record opt-in support. Specialist HBOT, sauna, evidence, media and policy builders remain in the repo for reviewers and agents, but the public journey points people to the source repos that already carry those deeper topics.
 
 ## Public Boundary
 
@@ -16,10 +16,10 @@ Contribution-credit or time-token systems are not implemented in this repo. Any 
 
 ## Pages
 
-- `index.html` - public gateway and evidence summary
+- `index.html` - simplified public gateway for starting Straddie wellbeing co-ops
 - `evidence.html` - public evidence hub
 - `sources.html` - human-readable source register
-- `builders/index.html` - builder directory
+- `builders/index.html` - five-note co-op starter builder directory
 - `builders/*.html` - individual Markdown builders
 - `docs/research-baseline.md` - current evidence summary and source links
 - `sources/source-register.json` - source register used by the scaffold

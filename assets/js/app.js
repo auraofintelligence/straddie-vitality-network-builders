@@ -80,9 +80,17 @@
     return `${builderPrefix}${builder.page}`;
   }
 
+  function builderSet(mode) {
+    if (mode === "core") {
+      return builders.filter((builder) => builder.lane === "core");
+    }
+    return builders;
+  }
+
   function renderBuilderCards() {
     document.querySelectorAll("[data-builder-cards]").forEach((target) => {
-      target.innerHTML = builders.map((builder, index) => `
+      const visibleBuilders = builderSet(target.dataset.builderCards || "all");
+      target.innerHTML = visibleBuilders.map((builder, index) => `
         <a class="builder-card" href="${builderUrl(builder)}">
           <span class="builder-number">${String(index + 1).padStart(2, "0")}</span>
           <h3>${escapeHtml(builder.title)}</h3>
@@ -181,13 +189,17 @@
     }
 
     const groups = groupFields(builder.fields);
-    const index = builders.indexOf(builder);
-    const previous = builders[index - 1];
-    const next = builders[index + 1];
+    const sequence = builder.lane === "core" ? builderSet("core") : builders;
+    const index = sequence.indexOf(builder);
+    const previous = sequence[index - 1];
+    const next = sequence[index + 1];
+    const stepLabel = builder.lane === "core"
+      ? `Starter note ${String(index + 1).padStart(2, "0")} of ${sequence.length}`
+      : `Reference builder ${String(index + 1).padStart(2, "0")} of ${sequence.length}`;
 
     shell.innerHTML = `
       <section class="page-intro builder-intro">
-        <p class="step-label">Builder ${String(index + 1).padStart(2, "0")} of ${builders.length}</p>
+        <p class="step-label">${stepLabel}</p>
         <h1>${escapeHtml(builder.title)}</h1>
         <p class="lede">${escapeHtml(builder.description)}</p>
         <p class="claim-boundary">${escapeHtml(builder.claimBoundary)}</p>

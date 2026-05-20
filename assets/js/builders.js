@@ -8,6 +8,9 @@
   ];
 
   const modelOptions = [
+    ["Community health co-op", "Community health co-op"],
+    ["Neighbourhood care circle", "Neighbourhood care circle"],
+    ["Venue-led wellbeing co-op", "Venue-led wellbeing co-op"],
     ["Private household or small group", "Private household or small group"],
     ["Public community access", "Public community access"],
     ["Venue-based service", "Venue-based service"],
@@ -65,22 +68,26 @@
   window.VITALITY_BUILDERS = [
     {
       id: "project-profile",
-      title: "Project Profile Builder",
-      file: "straddie-vitality-project-profile.md",
+      title: "Community Health Co-op Starter Builder",
+      file: "straddie-vitality-coop-starter.md",
       page: "project-profile.html",
-      description: "Defines the project, audience, model, public benefit and private boundary.",
-      claimBoundary: "Use this file to describe the project, public benefit, evidence signal and review pathway in plain public language.",
+      lane: "core",
+      description: "Starts a plain Straddie wellbeing co-op note: who it serves, why it matters, what the first shared offer is and what stays private.",
+      claimBoundary: "Use this file to make the co-op understandable before adding specialist health, funding, ledger or media detail.",
       fields: [
         ...baseMeta,
-        { name: "projectName", label: "Project name", type: "text", group: "Project identity", placeholder: "e.g. Amity Sauna Pilot, Venue HBOT/PADS Readiness, Community Recovery Hub" },
-        { name: "projectModel", label: "Project model", type: "select", group: "Project identity", options: modelOptions },
-        { name: "location", label: "Location or service area", type: "text", group: "Project identity", placeholder: "Amity, Dunwich, Point Lookout, island-wide, visiting service" },
-        { name: "purpose", label: "Wellbeing need", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "What public health, wellbeing, recovery, inclusion or local resilience need does this respond to?" },
-        { name: "audience", label: "Intended participants", type: "textarea", group: "Public-safe summary", rows: 3, placeholder: "Residents, elders, visitors, athletes, workers, carers, club members, private citizens or another group." },
-        { name: "publicBenefit", label: "Public benefit", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "How the project could support health, connection, safe tourism, ageing well, recovery, local work or better public information." },
-        ...sourceTrailFields,
-        ...boundaryFields,
-        { name: "nextSteps", label: "Next practical steps", type: "textarea", group: "Next actions", rows: 4, placeholder: "Evidence to check, partners to contact, venue checks, grant pathway, public notice or agent task." }
+        { name: "coopName", label: "Co-op or working name", type: "text", group: "Co-op identity", placeholder: "e.g. Amity Vitality Co-op, Straddie Recovery Circle, North Straddie Sauna Share" },
+        { name: "projectModel", label: "Starting model", type: "select", group: "Co-op identity", options: modelOptions },
+        { name: "location", label: "Place or service area", type: "text", group: "Co-op identity", placeholder: "Amity, Dunwich, Point Lookout, island-wide, one venue, visiting service or private pilot" },
+        { name: "peopleServed", label: "Who is this for?", type: "textarea", group: "Public-safe summary", rows: 3, placeholder: "Residents, elders, carers, workers, athletes, families, visitors, a club, a venue, a care circle or another local group." },
+        { name: "whyNow", label: "Why start?", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "The plain reason: ageing, fatigue, dementia pressure, recovery, isolation, food quality, cost-of-living, local work, tourism quality, disaster readiness or another local need." },
+        { name: "firstOffer", label: "First shared offer", type: "checkbox-group", group: "First practical offer", options: [["sauna", "Sauna or heat recovery"], ["hbot-readiness", "HBOT/PADS readiness"], ["healthy-food", "Healthy food or shared table"], ["movement", "Walking, strength or mobility"], ["elder-support", "Parent or elder support"], ["athlete-recovery", "Athlete recovery"], ["screening", "Wellbeing check-in or source-dated notes"], ["transport", "Transport or access help"], ["public-info", "Public information session"]] },
+        { name: "sharedAssets", label: "Assets, partners or rooms", type: "textarea", group: "First practical offer", rows: 4, placeholder: "Venue, room, club, sauna, food partner, volunteer, sponsor, clinician, trainer, transport, noticeboard, data helper or existing community group." },
+        { name: "simpleEvidence", label: "Simple evidence story", type: "textarea", group: "Why it matters", rows: 4, placeholder: "One practical evidence line: heat, oxygen pressure, movement, food quality, sleep, social connection, dementia prevention, carer relief, local cost pressure or safer public data." },
+        { name: "measureLightly", label: "What to record without wasting time", type: "textarea", group: "Why it matters", rows: 4, placeholder: "Attendance, access barriers, safety issues, satisfaction, sleep/energy/recovery notes, source dates, costs avoided, referrals, next requests or public/private consent." },
+        { name: "publicInvite", label: "Public invitation", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "A short invitation for residents, venues, sponsors or government: what is being started, who can help, and what the first meeting or pilot needs." },
+        { name: "privacyBoundary", label: "What stays private", type: "textarea", group: "Private / approval-gated", rows: 4, private: true, placeholder: "Health details, family notes, raw sensor data, wallet details, commercial terms, legal advice, clinical opinions or anything without consent." },
+        { name: "first30Days", label: "First 30 days", type: "textarea", group: "Next actions", rows: 4, placeholder: "Three to five steps: invite people, name a venue, check safety, gather sources, meet a sponsor, run a low-risk session, publish a public note." }
       ]
     },
     {
@@ -134,6 +141,7 @@
       title: "Venue Readiness Builder",
       file: "straddie-vitality-venue-readiness.md",
       page: "venue-readiness.html",
+      lane: "core",
       description: "Checks whether a venue could host sauna, HBOT/PADS, food, movement or recovery activity.",
       claimBoundary: "Venue readiness collects practical checks for safety, access, operations and reviewer follow-up.",
       fields: [
@@ -293,6 +301,7 @@
       title: "Grant Readiness Builder",
       file: "straddie-vitality-grant-readiness.md",
       page: "grant-readiness.html",
+      lane: "core",
       description: "Turns a vitality project into a grant-ready evidence and applicant note.",
       claimBoundary: "Grant notes should use public-benefit language backed by source trails and review-ready evidence.",
       fields: [
@@ -336,6 +345,7 @@
       title: "Public Notice Builder",
       file: "straddie-vitality-public-notice.md",
       page: "public-notice.html",
+      lane: "core",
       description: "Drafts a public-safe update for a noticeboard, venue page or community channel.",
       claimBoundary: "Public notices should invite participation or feedback with clear evidence status and no private details.",
       fields: [
@@ -355,6 +365,7 @@
       title: "Public Honour Board Bridge Builder",
       file: "straddie-vitality-honour-board-bridge.md",
       page: "honour-board-bridge.html",
+      lane: "core",
       description: "Prepares an opt-in public support record for the Honour Board, XRP common track, personal/project token trail and future contribution-credit lane.",
       claimBoundary: "This builder records public acknowledgement and optional public transaction references only. XRP is the common public transaction track. ICI-on-Solana is the I See Infinity token example, while other people or projects may use their own meme/community token. C-hour remains a future legal/policy lane, not an active token system here.",
       fields: [
