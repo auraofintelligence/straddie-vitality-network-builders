@@ -345,7 +345,6 @@
       title: "Public Notice Builder",
       file: "straddie-vitality-public-notice.md",
       page: "public-notice.html",
-      lane: "core",
       description: "Drafts a public-safe update for a noticeboard, venue page or community channel.",
       claimBoundary: "Public notices should invite participation or feedback with clear evidence status and no private details.",
       fields: [
@@ -365,7 +364,6 @@
       title: "Public Honour Board Bridge Builder",
       file: "straddie-vitality-honour-board-bridge.md",
       page: "honour-board-bridge.html",
-      lane: "core",
       description: "Prepares an opt-in public support record for the Honour Board, XRP common track, personal/project token trail and future contribution-credit lane.",
       claimBoundary: "This builder records public acknowledgement and optional public transaction references only. XRP is the common public transaction track. ICI-on-Solana is the I See Infinity token example, while other people or projects may use their own meme/community token. C-hour remains a future legal/policy lane, not an active token system here.",
       fields: [
