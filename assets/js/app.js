@@ -263,7 +263,7 @@
       `Generated: ${today()}`,
       `Output file: ${builder.file}`,
       "",
-      `Evidence boundary: ${builder.claimBoundary}`
+      `Review boundary: ${builder.claimBoundary}`
     ];
 
     const sections = Object.entries(groups)
@@ -278,9 +278,9 @@
 
     const review = section("Review Notes", [
       "- Keep public pages limited to public-safe sections unless approval is recorded.",
-      "- Verify source links, source dates and claim wording before grant, government, sponsor or media use.",
-      "- Do not convert clinical-adjacent notes into medical advice.",
-      "- Do not publish private, commercial, health, cultural or approval-gated notes by default."
+      "- Verify source links, source dates and public wording before grant, government, sponsor or media use.",
+      "- Keep clinical-adjacent notes in the review lane.",
+      "- Keep private, commercial, health, cultural or approval-gated notes out of public pages by default."
     ]);
 
     return [...lines, "", ...sections, review, ""].join("\n").replace(/\n{3,}/g, "\n\n");

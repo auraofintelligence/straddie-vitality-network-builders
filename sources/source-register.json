@@ -160,6 +160,14 @@
     "use_in_project": "Skin functions: barrier, temperature regulation, sensory role, water loss prevention and sweat gland context."
   },
   {
+    "title": "Skin barrier function",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/skin-barrier-function",
+    "published_or_updated": "2021-03",
+    "accessed": "2026-05-20",
+    "use_in_project": "Skin as a bi-directional barrier controlling inside-out water loss and outside-in chemical, microbial and environmental exposure."
+  },
+  {
     "title": "What Is Sweat and Why Do We Sweat?",
     "publisher": "Cleveland Clinic",
     "url": "https://my.clevelandclinic.org/health/body/sweat",
@@ -206,6 +214,70 @@
     "published_or_updated": "2012-02-22",
     "accessed": "2026-05-20",
     "use_in_project": "Cautious sweat and heavy-metal excretion evidence, including limitations and need for safe protocols."
+  },
+  {
+    "title": "Telomere",
+    "publisher": "National Human Genome Research Institute",
+    "url": "https://www.genome.gov/genetics-glossary/Telomere",
+    "published_or_updated": "2026",
+    "accessed": "2026-05-20",
+    "use_in_project": "Plain-language telomere definition for cellular repair and ageing-marker context."
+  },
+  {
+    "title": "Hyperbaric oxygen therapy increases telomere length and decreases immunosenescence in isolated blood cells: a prospective trial",
+    "publisher": "Aging",
+    "url": "https://www.aging-us.com/article/202188/text",
+    "published_or_updated": "2020-11-18",
+    "accessed": "2026-05-20",
+    "use_in_project": "Early human HBOT telomere and senescent-cell signal, with small sample, no-control and dose-review limitations."
+  },
+  {
+    "title": "Stem cell mobilization by hyperbaric oxygen",
+    "publisher": "American Journal of Physiology / University of Miami repository",
+    "url": "https://scholarship.miami.edu/esploro/outputs/journalArticle/Stem-cell-mobilization-by-hyperbaric-oxygen/991031600374502976",
+    "published_or_updated": "2006-04",
+    "accessed": "2026-05-20",
+    "use_in_project": "HBOT stem/progenitor-cell mobilisation and nitric oxide pathway evidence for repair-biology questions."
+  },
+  {
+    "title": "5 questions about intermittent fasting",
+    "publisher": "NIH MedlinePlus Magazine",
+    "url": "https://magazine.medlineplus.gov/article/5-questions-about-intermittent-fasting/",
+    "published_or_updated": "2020-04-07",
+    "accessed": "2026-05-20",
+    "use_in_project": "Intermittent fasting overview, food-quality context and safety cautions for diabetes, kidney disease and heart issues."
+  },
+  {
+    "title": "To Fast or Not to Fast",
+    "publisher": "NIH News in Health",
+    "url": "https://newsinhealth.nih.gov/2019/12/fast-or-not-fast",
+    "published_or_updated": "2019-12",
+    "accessed": "2026-05-20",
+    "use_in_project": "Fasting spectrum, time-restricted eating, fasting-mimicking diet and health-provider review context."
+  },
+  {
+    "title": "Health Effects of a Diet that Mimics Fasting",
+    "publisher": "NIH Research Matters",
+    "url": "https://www.nih.gov/news-events/nih-research-matters/health-effects-diet-mimics-fasting",
+    "published_or_updated": "2015-07-13",
+    "accessed": "2026-05-20",
+    "use_in_project": "Fasting-mimicking diet as a researched lower-calorie protocol, including preliminary human data and safety rationale."
+  },
+  {
+    "title": "Refeeding Syndrome",
+    "publisher": "NCBI Bookshelf / StatPearls",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK564513/",
+    "published_or_updated": "2023",
+    "accessed": "2026-05-20",
+    "use_in_project": "Refeeding, electrolyte and medical-supervision boundary for prolonged or no-food fasting."
+  },
+  {
+    "title": "\"Detoxes\" and \"Cleanses\": What You Need To Know",
+    "publisher": "National Center for Complementary and Integrative Health",
+    "url": "https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know",
+    "published_or_updated": "2025-03",
+    "accessed": "2026-05-20",
+    "use_in_project": "Public safety boundary for detox, cleansing, fasting and sauna wording."
   },
   {
     "title": "Local Government Funding Inquiry Submission",
