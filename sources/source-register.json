@@ -360,6 +360,22 @@
     "use_in_project": "Public Honour Board bridge pattern: trust first, optional public wallet references, XRP common transaction track, ICI as I See Infinity token example, personal/project meme tokens and future C-hour watch lane."
   },
   {
+    "title": "ISS 2030: NASA Extends Operations of the International Space Station",
+    "publisher": "NASA Science",
+    "url": "https://science.nasa.gov/resource/iss-2030-nasa-extends-operations-of-the-international-space-station/",
+    "published_or_updated": "2024-01-24",
+    "accessed": "2026-05-20",
+    "use_in_project": "NASA source for ISS operations extended through 2030 and transition to commercial low-Earth-orbit destinations."
+  },
+  {
+    "title": "NASA's Management of Risks to Sustaining ISS Operations through 2030",
+    "publisher": "NASA Office of Inspector General",
+    "url": "https://oig.nasa.gov/wp-content/uploads/2024/09/ig-24-020.pdf",
+    "published_or_updated": "2024-09-26",
+    "accessed": "2026-05-20",
+    "use_in_project": "NASA OIG source for controlled ISS deorbit planning, including the current 2031 deorbit end date and schedule risk context."
+  },
+  {
     "title": "Local Government Funding Inquiry Submission",
     "publisher": "Local project source document",
     "url": "Private local source document; do not publish the local filesystem path.",
