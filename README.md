@@ -8,7 +8,9 @@ The toolkit helps venues, community groups, health partners, sponsors and public
 
 This repo is designed for public and government-facing planning. Public pages avoid private working notes, personal chat context and unsupported medical claims. Builder outputs separate public-safe information from private or approval-gated notes.
 
-HBOT is treated as a supervised health technology with strict safety, professional oversight and claim-boundary requirements. The preferred technical direction is an air-pressurised chamber with mask-fed PADS, a Personalised Atmosphere Delivery System that can adjust flow and gas mix while keeping the chamber environment safer for sensors, monitoring and electronics. Sauna and heat exposure are treated as wellbeing and performance-support practices where evidence is promising but should not be overstated.
+HBOT is treated as supervised pressure physiology with strict safety, professional oversight and claim-boundary requirements. The preferred technical direction is an air-pressurised chamber with mask-fed PADS, a Personalised Atmosphere Delivery System that can adjust flow and gas mix while keeping the chamber environment safer for sensors, monitoring and electronics. Sauna and heat exposure are treated as controlled heat stress for wellbeing, recovery and performance-support questions where evidence is promising but should not be overstated.
+
+The evidence hub uses first-principles language: oxygen pressure changes dissolved plasma oxygen, sauna changes heat load and circulation, skin cools and protects, and detox is mainly exposure reduction plus liver, kidney and gut function. Public pages should explain mechanisms plainly without turning them into treatment promises.
 
 Contribution-credit or time-token systems are not implemented in this repo. Any future contribution economy model remains inactive until there is clear legal and regulatory support.
 

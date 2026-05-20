@@ -136,6 +136,78 @@
     "use_in_project": "Private health insurance cost-pressure context."
   },
   {
+    "title": "Hyperbaric Physiological and Pharmacological Effects of Gases",
+    "publisher": "NCBI Bookshelf / StatPearls",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK470481/",
+    "published_or_updated": "2026",
+    "accessed": "2026-05-20",
+    "use_in_project": "Plain-language HBOT mechanism: pressure, Henry's law, dissolved plasma oxygen, tissue oxygenation and dose safety."
+  },
+  {
+    "title": "Clinical Effects of Regular Dry Sauna Bathing: A Systematic Review",
+    "publisher": "Evidence-Based Complementary and Alternative Medicine / PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "published_or_updated": "2018",
+    "accessed": "2026-05-20",
+    "use_in_project": "Sauna physiology, clinical evidence range, limitations and cautious public-health wording."
+  },
+  {
+    "title": "Anatomy of the Skin",
+    "publisher": "Johns Hopkins Medicine",
+    "url": "https://www.hopkinsmedicine.org/health/skin/anatomy-of-the-skin",
+    "published_or_updated": "Undated",
+    "accessed": "2026-05-20",
+    "use_in_project": "Skin functions: barrier, temperature regulation, sensory role, water loss prevention and sweat gland context."
+  },
+  {
+    "title": "What Is Sweat and Why Do We Sweat?",
+    "publisher": "Cleveland Clinic",
+    "url": "https://my.clevelandclinic.org/health/body/sweat",
+    "published_or_updated": "2024",
+    "accessed": "2026-05-20",
+    "use_in_project": "Sweat as thermoregulation first, with skin hydration, antimicrobial and sweat gland anatomy context."
+  },
+  {
+    "title": "Your Kidneys and How They Work",
+    "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+    "published_or_updated": "2018",
+    "accessed": "2026-05-20",
+    "use_in_project": "Kidneys as filtering organs for wastes, fluid, acid and mineral balance."
+  },
+  {
+    "title": "What is the liver?",
+    "publisher": "Centers for Disease Control and Prevention",
+    "url": "https://archive.cdc.gov/www_cdc_gov/hepatitis/theliver.htm",
+    "published_or_updated": "2015-05-31",
+    "accessed": "2026-05-20",
+    "use_in_project": "Liver role in filtering and processing chemicals, medicines, alcohol and waste products."
+  },
+  {
+    "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+    "publisher": "National Academies / NCBI Bookshelf",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK582439/",
+    "published_or_updated": "2022-07-28",
+    "accessed": "2026-05-20",
+    "use_in_project": "PFAS exposure education, testing limits, clinical follow-up and exposure-reduction framing."
+  },
+  {
+    "title": "Endocrine-Disrupting Chemicals 2",
+    "publisher": "Endocrine Society",
+    "url": "https://www.endocrine.org/advancing-research/scientific-statements/endocrine-disrupting-chemicals/edc2",
+    "published_or_updated": "2015-12-02",
+    "accessed": "2026-05-20",
+    "use_in_project": "Endocrine-disrupting chemical evidence categories including reproduction, thyroid, metabolism and neurodevelopment."
+  },
+  {
+    "title": "Arsenic, Cadmium, Lead, and Mercury in Sweat: A Systematic Review",
+    "publisher": "PubMed / Journal of Environmental and Public Health",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22505948/",
+    "published_or_updated": "2012-02-22",
+    "accessed": "2026-05-20",
+    "use_in_project": "Cautious sweat and heavy-metal excretion evidence, including limitations and need for safe protocols."
+  },
+  {
     "title": "Local Government Funding Inquiry Submission",
     "publisher": "Local project source document",
     "url": "Private local source document; do not publish the local filesystem path.",
