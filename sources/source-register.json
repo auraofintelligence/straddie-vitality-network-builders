@@ -21,7 +21,7 @@
     "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers",
     "published_or_updated": "2025-10-10",
     "accessed": "2026-05-20",
-    "use_in_project": "HBOT safety, qualified supervision, fire prevention and consumer caution."
+    "use_in_project": "Boundary source for oxygen-enriched chamber warnings; keep separate from mask-fed normal-air PADS design."
   },
   {
     "title": "Follow Instructions for Safe Use of Hyperbaric Oxygen Therapy Devices",
@@ -53,7 +53,7 @@
     "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724",
     "published_or_updated": "2015-02-23",
     "accessed": "2026-05-20",
-    "use_in_project": "Sauna observational evidence and cautious cardiovascular wording."
+    "use_in_project": "Sauna observational evidence and source-dated cardiovascular wording."
   },
   {
     "title": "Effect of post-exercise sauna bathing on the endurance performance of competitive male runners",
@@ -77,7 +77,7 @@
     "url": "https://www.cdc.gov.au/topics/environmental-health/and-polyfluoroalkyl-substances-pfas",
     "published_or_updated": "2025",
     "accessed": "2026-05-20",
-    "use_in_project": "PFAS exposure context and cautious toxicity wording."
+    "use_in_project": "PFAS exposure context and source-dated toxicity wording."
   },
   {
     "title": "Australian Burden of Disease Study 2024",
@@ -149,7 +149,31 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
     "published_or_updated": "2018",
     "accessed": "2026-05-20",
-    "use_in_project": "Sauna physiology, clinical evidence range, limitations and cautious public-health wording."
+    "use_in_project": "Dry sauna physiology, clinical evidence range, modality distinctions and public-health wording."
+  },
+  {
+    "title": "Comparison of physiological reactions and physiological strain in healthy men under heat stress in dry and steam heat saunas",
+    "publisher": "Biology of Sport",
+    "url": "https://pdfs.semanticscholar.org/810e/e72b73a8028aa7369c570a1e18d63a941f93.pdf",
+    "published_or_updated": "2014",
+    "accessed": "2026-05-20",
+    "use_in_project": "Dry versus wet/steam sauna physiology, including humidity, sweat evaporation, heart-rate, core-temperature, body-mass and comfort differences."
+  },
+  {
+    "title": "Far-infrared therapy for cardiovascular, autoimmune, and other chronic health problems: A systematic review",
+    "publisher": "Experimental Biology and Medicine / PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4935255/",
+    "published_or_updated": "2016",
+    "accessed": "2026-05-20",
+    "use_in_project": "Far-infrared therapy as a radiant-heat evidence lane distinct from traditional dry and wet/steam sauna."
+  },
+  {
+    "title": "Physiology of sweat gland function: The roles of sweating and sweat composition in human health",
+    "publisher": "Temperature / PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773238/",
+    "published_or_updated": "2019",
+    "accessed": "2026-05-20",
+    "use_in_project": "Sweat physiology, thermoregulation, skin function, sweat composition and measurement cautions."
   },
   {
     "title": "Anatomy of the Skin",
@@ -213,7 +237,15 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/22505948/",
     "published_or_updated": "2012-02-22",
     "accessed": "2026-05-20",
-    "use_in_project": "Cautious sweat and heavy-metal excretion evidence, including limitations and need for safe protocols."
+    "use_in_project": "Sweat and heavy-metal excretion evidence, including protocol, hydration, sampling and measurement needs."
+  },
+  {
+    "title": "Human elimination of phthalate compounds: blood, urine, and sweat (BUS) study",
+    "publisher": "PubMed / Scientific World Journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23213291/",
+    "published_or_updated": "2012",
+    "accessed": "2026-05-20",
+    "use_in_project": "Phthalate compounds measured across blood, urine and sweat, supporting sweat as a detox and biomonitoring question."
   },
   {
     "title": "Telomere",

@@ -16,17 +16,17 @@ This baseline supports public, government, venue and sponsor-facing planning. It
 
 ## First-Principles Evidence Line
 
-HBOT is pressure physiology. Red blood cells are already close to full oxygen saturation in healthy people. Hyperbaric pressure increases the amount of oxygen dissolved in plasma, which can help oxygen reach low-oxygen tissue contexts under supervised conditions. Public wording should explain pressure, breathing-gas mix, dose, supervision and stop rules.
+HBOT is pressure physiology. Red blood cells are already close to full oxygen saturation in healthy people. Hyperbaric pressure increases the amount of oxygen dissolved in plasma, which can help oxygen reach low-oxygen tissue contexts under supervised conditions. The simple analogy is scuba pressure while staying dry: around 10 metres underwater, a snorkel is not enough because the surrounding pressure is too high; scuba works by delivering breathing gas at the pressure the lungs are under. Public wording should explain pressure, breathing-gas mix, dose, supervision and stop rules.
 
-Sauna is controlled heat stress. Heat opens skin blood vessels, raises heart rate and triggers sweating. Sweat is mainly a cooling system and can be part of a useful routine when hydration, minerals, cool-down, medication cautions and individual risk are respected.
+Saunas are different heat tools. Dry sauna, infrared sauna and wet/steam heat use different physics. Dry sauna uses hotter air and lower humidity, infrared uses radiant heat, and wet/steam heat slows sweat evaporation because the air is humid. Heat opens skin blood vessels, raises heart rate and triggers sweating, but each modality needs its own temperature, humidity, timing, cool-down and response record.
 
 Skin is a two-way filter, radiator and sensor. It helps protect the body, regulate temperature, prevent water loss, sense the world, host sweat glands and control molecular transfer from inside-out and outside-in. The practical aim is to maintain the filter: intact barrier, clean exposure, hydration, minerals, sweat/cool-down and skin-irritation checks.
 
-The main detox frame is practical maintenance: reduce incoming exposure, support liver processing, keep kidneys filtering, keep bowel movements regular, maintain skin-barrier function, restore water and electrolytes, eat enough fibre and protein, and measure changes carefully.
+The main detox frame is practical maintenance and measured flow: reduce incoming exposure, sweat safely, maintain skin-barrier function, support liver processing, keep kidneys filtering, keep bowel movements regular, restore water and electrolytes, eat enough fibre and protein, and measure changes carefully.
 
 Fasting is a spectrum. Time-restricted eating and added-sugar or ultra-processed-food pauses are public-friendly starting points for many adults. Fasting-mimicking diets and 2-5 day no-food or water-only fasts belong in screened, supervised protocols with medication review, hydration, electrolyte and refeeding plans.
 
-The annual service analogy is useful if it stays practical: inspect the sensors, refresh fluids, clean the filters, reduce the incoming load, check the waste routes and record what changed.
+The annual service analogy is useful when it stays concrete: stop adding dirty fuel, flush the lines, change the fluids, clean the filters, check the gauges, run gently and test again. For the body, that means cleaner inputs, sweat and skin care, hydration and minerals, bowel regularity, liver and kidney support, movement, sleep and before/after measures.
 
 ## Dementia And Healthy Ageing
 
@@ -36,19 +36,19 @@ AIHW and WHO both frame dementia risk through a mix of non-modifiable and modifi
 
 ## HBOT
 
-HBOT is a specialised therapy involving increased pressure and controlled breathing-gas exposure. Australian public safety advice says hyperbaric chamber devices should only be used by qualified healthcare professionals in properly equipped and authorised settings. Fire risk, device instructions, patient monitoring, grounding, compatible clothing, staff training and emergency procedures are central safety concerns.
+HBOT is a specialised therapy involving increased pressure and controlled breathing-gas exposure. Australian public safety advice says hyperbaric chamber devices should only be used by qualified healthcare professionals in properly equipped and authorised settings. Device instructions, pressure rating, participant monitoring, staff training and emergency procedures are central safety concerns.
 
-The project direction is mask-fed PADS: keep the chamber pressurised with breathable air, deliver the selected gas mix through a sealed mask, monitor flow and mix rate, and keep biosensors, software controls and chamber-safe electronics inside a clear safety design.
+The project direction is mask-fed PADS: keep the chamber pressurised with normal breathable air, deliver the selected gas mix through a sealed mask, monitor flow and mix rate, and keep biosensors, software controls and chamber-safe electronics inside a clear safety design. This is separate from whole-chamber oxygen enrichment; the safety hierarchy is different.
 
 Public HBOT wording should separate recognised medical indications from wellness, anti-ageing, athlete recovery and dementia-related research. Athlete and ageing research exists, but general public pages should treat those uses as investigational unless reviewed by qualified professionals.
 
 Cellular repair biology belongs in the research frame. A small prospective 2 ATA HBOT trial in healthy older adults reported telomere-length increases in some immune-cell groups and lower senescent T-cell markers after a 60-session protocol. HBOT research has also reported mobilisation of circulating stem/progenitor cells through a nitric-oxide-related pathway. These are review-worthy repair signals.
 
-## Sauna And Heat Exposure
+## Sauna Modalities And Heat Exposure
 
 Finnish sauna cohort research has associated more frequent sauna bathing with lower sudden cardiac death, fatal cardiovascular disease and all-cause mortality in middle-aged men. This gives a strong association to explore through better local routines and source-dated data.
 
-Sauna can be framed as a wellbeing, recovery, social connection and heat-acclimation tool when safety boundaries are visible. Public copy should include hydration, heat tolerance, medical cautions, alcohol avoidance, staff supervision, cleaning and emergency response.
+Sauna can be framed as a wellbeing, detox, recovery, social connection and heat-acclimation tool when the modality is named and measured. Public copy should include dry, infrared or wet/steam type; temperature; humidity; session time; sweat response; hydration and minerals; heat tolerance; medical cautions; alcohol avoidance; staff supervision; cleaning and emergency response.
 
 Athlete evidence includes small studies and reviews suggesting post-exercise sauna may support heat acclimation and endurance markers through plasma-volume adaptations. Use this as a practical research line with dose, timing and recovery notes.
 
@@ -60,7 +60,7 @@ AIHW reports that 36% of Australia's disease burden in 2024 could have been avoi
 
 Endocrine-disrupting chemicals belong in the evidence frame because hormone signalling affects fertility, thyroid function, metabolism, development, energy and mood. The useful public line is exposure reduction, safer choices and better source trails as practical public-health work.
 
-Sweat studies show some metals and chemicals can be detected in sweat, but methods vary and stronger trials are needed before sauna can be presented as a toxin-removal protocol. The local evidence question should be: what exposure is being reduced, what safety controls are in place, what is measured and what public line is supported?
+Sweat studies show some metals and chemicals can be detected in sweat. This supports detox as a real evidence lane when it is framed as exposure reduction plus measured outward flow, hydration, minerals, skin care, liver/kidney/gut support and local outcome tracking.
 
 ## Fasting And Food Timing
 
@@ -105,7 +105,7 @@ The builders should ask:
 - Who is the intended group?
 - Is the proposed use recreational, wellbeing, clinical-adjacent, research, grant-funded, sponsorship-funded or venue-based?
 - If HBOT is involved, is it mask-fed PADS with adjustable breathing-gas mix and flow, rather than whole-chamber oxygen enrichment?
-- What mechanism is being tested or described: dissolved oxygen under pressure, heat stress, sweat cooling, liver/kidney/gut excretion, hormone disruption, inflammation, food, movement, microbiome, social connection or data flow?
+- What mechanism is being tested or described: dissolved oxygen under pressure, dry/infrared/wet heat, sweat cooling and detox flow, liver/kidney/gut excretion, hormone disruption, inflammation, food, movement, microbiome, social connection or data flow?
 - What public line or testable hypothesis is being used, and what evidence supports it?
 - Is the evidence recognised, peer-reviewed, observational, early, anecdotal or ready for source checking?
 - What should be measured locally: dose, symptoms, sleep, energy, fasting window, hydration, electrolytes, skin-barrier comfort, access, adverse events, source dates, consent, cost pressure or public usefulness?
