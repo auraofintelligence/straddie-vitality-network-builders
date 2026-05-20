@@ -280,6 +280,46 @@
     "use_in_project": "Public safety boundary for detox, cleansing, fasting and sauna wording."
   },
   {
+    "title": "Aura Geode to Macro",
+    "publisher": "Local project source document",
+    "url": "Private local source document; do not publish the local filesystem path.",
+    "published_or_updated": "2025-07-27",
+    "accessed": "2026-05-20",
+    "use_in_project": "Local architecture for micro-exposures, PADS variables, material-composition IDs, multimodal session design, subjective dialogue, bio-kits, federated learning and user-controlled data."
+  },
+  {
+    "title": "CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement",
+    "publisher": "PubMed / Journal of Clinical Epidemiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26272792/",
+    "published_or_updated": "2015",
+    "accessed": "2026-05-20",
+    "use_in_project": "N-of-1 and repeated self-comparison structure for safe self-experiment notes."
+  },
+  {
+    "title": "Protecting Privacy When Sharing Human Research Participant Data",
+    "publisher": "National Institutes of Health",
+    "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-22-213.html",
+    "published_or_updated": "2022-09-21",
+    "accessed": "2026-05-20",
+    "use_in_project": "Privacy principles for participant data sharing, consent clarity, controlled access and data-sharing limits."
+  },
+  {
+    "title": "Privacy & Security Protocols",
+    "publisher": "All of Us Research Hub",
+    "url": "https://researchallofus.org/privacy-security-protocols/",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-20",
+    "use_in_project": "Public example of large-scale research privacy and security protocols for health data."
+  },
+  {
+    "title": "Wearable technologies for health research: Opportunities, limitations, and practical and conceptual considerations",
+    "publisher": "PMC / Digital Biomarkers",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11233111/",
+    "published_or_updated": "2024",
+    "accessed": "2026-05-20",
+    "use_in_project": "Wearable-data strengths, limitations, within-person tracking and cross-device comparison cautions."
+  },
+  {
     "title": "Local Government Funding Inquiry Submission",
     "publisher": "Local project source document",
     "url": "Private local source document; do not publish the local filesystem path.",

@@ -3,7 +3,7 @@
 Draft status: Evidence baseline for public planning
 Last reviewed: 2026-05-20
 
-This baseline supports public, government, venue and sponsor-facing planning. It is not medical advice. It helps builders keep public wording cautious, source-dated and suitable for review.
+This baseline supports public, government, venue and sponsor-facing planning. It helps builders keep public wording practical, source-dated and suitable for review.
 
 ## Evidence Discipline
 
@@ -18,7 +18,7 @@ This baseline supports public, government, venue and sponsor-facing planning. It
 
 HBOT is pressure physiology. Red blood cells are already close to full oxygen saturation in healthy people. Hyperbaric pressure increases the amount of oxygen dissolved in plasma, which can help oxygen reach low-oxygen tissue contexts under supervised conditions. Public wording should explain pressure, breathing-gas mix, dose, supervision and stop rules.
 
-Sauna is controlled heat stress. Heat opens skin blood vessels, raises heart rate and triggers sweating. Sweat is mainly a cooling system, not a magic toxin-removal system. It can be part of a useful routine when hydration, minerals, cool-down, medication cautions and individual risk are respected.
+Sauna is controlled heat stress. Heat opens skin blood vessels, raises heart rate and triggers sweating. Sweat is mainly a cooling system and can be part of a useful routine when hydration, minerals, cool-down, medication cautions and individual risk are respected.
 
 Skin is a two-way filter, radiator and sensor. It helps protect the body, regulate temperature, prevent water loss, sense the world, host sweat glands and control molecular transfer from inside-out and outside-in. The practical aim is to maintain the filter: intact barrier, clean exposure, hydration, minerals, sweat/cool-down and skin-irritation checks.
 
@@ -38,27 +38,27 @@ AIHW and WHO both frame dementia risk through a mix of non-modifiable and modifi
 
 HBOT is a specialised therapy involving increased pressure and controlled breathing-gas exposure. Australian public safety advice says hyperbaric chamber devices should only be used by qualified healthcare professionals in properly equipped and authorised settings. Fire risk, device instructions, patient monitoring, grounding, compatible clothing, staff training and emergency procedures are central safety concerns.
 
-The project direction is not chamber-wide oxygen enrichment. The preferred architecture is mask-fed PADS: keep the chamber pressurised with breathable air, deliver the selected gas mix through a sealed mask, monitor flow and mix rate, and keep biosensors, software controls and chamber-safe electronics inside a clear safety design.
+The project direction is mask-fed PADS: keep the chamber pressurised with breathable air, deliver the selected gas mix through a sealed mask, monitor flow and mix rate, and keep biosensors, software controls and chamber-safe electronics inside a clear safety design.
 
 Public HBOT wording should separate recognised medical indications from wellness, anti-ageing, athlete recovery and dementia-related research. Athlete and ageing research exists, but general public pages should treat those uses as investigational unless reviewed by qualified professionals.
 
-Cellular repair biology belongs in the research frame. A small prospective 2 ATA HBOT trial in healthy older adults reported telomere-length increases in some immune-cell groups and lower senescent T-cell markers after a 60-session protocol. HBOT research has also reported mobilisation of circulating stem/progenitor cells through a nitric-oxide-related pathway. These are review-worthy repair signals, not stand-alone public outcomes.
+Cellular repair biology belongs in the research frame. A small prospective 2 ATA HBOT trial in healthy older adults reported telomere-length increases in some immune-cell groups and lower senescent T-cell markers after a 60-session protocol. HBOT research has also reported mobilisation of circulating stem/progenitor cells through a nitric-oxide-related pathway. These are review-worthy repair signals.
 
 ## Sauna And Heat Exposure
 
-Finnish sauna cohort research has associated more frequent sauna bathing with lower sudden cardiac death, fatal cardiovascular disease and all-cause mortality in middle-aged men, but observational association is not the same as proof of causation.
+Finnish sauna cohort research has associated more frequent sauna bathing with lower sudden cardiac death, fatal cardiovascular disease and all-cause mortality in middle-aged men. This gives a strong association to explore through better local routines and source-dated data.
 
 Sauna can be framed as a wellbeing, recovery, social connection and heat-acclimation tool when safety boundaries are visible. Public copy should include hydration, heat tolerance, medical cautions, alcohol avoidance, staff supervision, cleaning and emergency response.
 
-Athlete evidence includes small studies and reviews suggesting post-exercise sauna may support heat acclimation and endurance markers through plasma-volume adaptations. Use this as a practical research line, not a guaranteed performance outcome.
+Athlete evidence includes small studies and reviews suggesting post-exercise sauna may support heat acclimation and endurance markers through plasma-volume adaptations. Use this as a practical research line with dose, timing and recovery notes.
 
 ## Toxicity And Exposure Context
 
 PFAS are widespread synthetic chemicals. The Australian Centre for Disease Control says most people are likely to have had some exposure and recommends limiting exposure as a precaution because PFAS can remain in the body for a long time.
 
-AIHW reports that 36% of Australia's disease burden in 2024 could have been avoided or reduced due to modifiable risk factors in its study. This supports a broad prevention and healthy-environment framing, but it does not prove any one local intervention removes toxins or reverses disease.
+AIHW reports that 36% of Australia's disease burden in 2024 could have been avoided or reduced due to modifiable risk factors in its study. This supports a broad prevention and healthy-environment framing that local projects can measure carefully.
 
-Endocrine-disrupting chemicals belong in the evidence frame because hormone signalling affects fertility, thyroid function, metabolism, development, energy and mood. Public pages should not say toxins cause every case of infertility, inflammation, fatigue or cognitive decline. The safer line is that exposure reduction, safer choices and better source trails are practical public-health work.
+Endocrine-disrupting chemicals belong in the evidence frame because hormone signalling affects fertility, thyroid function, metabolism, development, energy and mood. The useful public line is exposure reduction, safer choices and better source trails as practical public-health work.
 
 Sweat studies show some metals and chemicals can be detected in sweat, but methods vary and stronger trials are needed before sauna can be presented as a toxin-removal protocol. The local evidence question should be: what exposure is being reduced, what safety controls are in place, what is measured and what public line is supported?
 
@@ -68,9 +68,32 @@ Intermittent fasting is already popular, which makes it important to separate th
 
 Fasting forms should ask for fasting type, eating window, added-sugar or ultra-processed-food pause, hydration, electrolytes, symptoms, sleep, mood, energy, medications, diabetes risk, kidney or heart issues, pregnancy or breastfeeding, eating-disorder history, support person and refeeding plan.
 
+## Privacy-Preserving Self-Experimentation
+
+The Aura Geode to macro source notes describe the useful research architecture: micro-exposures, PADS variables, material-composition IDs, light, scent, audio, haptics, field protocols, subjective dialogue, biosensors, bio-kits, federated learning and user-controlled data. The public version should translate this into clear hypotheses, not personal lore.
+
+Safe self-experiments should define:
+
+- The question being tested.
+- The baseline period.
+- The variable or exposure.
+- The comparison method.
+- The signals collected.
+- The safety gate.
+- The privacy layer.
+- The public-safe summary.
+
+Useful starting tests include sauna timing, cool-down style, hydration minerals, added-sugar pauses, fasting windows, protein timing, morning light, beach or bush walks, breathwork, sleep routine, social meal, reaction-time checks, grip strength and mood or energy scores.
+
+Review-gated tests include HBOT/PADS pressure and gas settings, supervised 2-5 day fasts, heat exposure for higher-risk groups, medication-adjacent routines, dementia-care pathways, biological samples, blood markers, breath VOCs, microbiome testing and epigenetic-clock testing.
+
+Etheric or subtle-material hypotheses can be made testable by logging material blend, scent, sound, haptic frequency, light spectrum, ceremony sequence, expectation state, location and timing, then comparing repeatable physiological and subjective signals. Randomisation and blinding should be used where practical.
+
+Privacy design should keep raw biometric streams, voice notes, health histories and identity keys under participant or venue control. Shared outputs should use consented summaries, aggregation, group-size thresholds, de-identification, source dates and withdrawal pathways.
+
 ## Health-System Savings Logic
 
-AIHW reported Australian health expenditure of $270.5 billion in 2023-24. A one percent improvement across a system that size is about $2.7 billion a year. A local project should not declare those savings upfront. It can help test the small practical leak points: repeated paperwork, late support, poor navigation, preventable decline, food waste, unsafe public wording, avoidable trips, carer overload and fragmented data.
+AIHW reported Australian health expenditure of $270.5 billion in 2023-24. A one percent improvement across a system that size is about $2.7 billion a year. A local project can help test the small practical leak points: repeated paperwork, late support, poor navigation, preventable decline, food waste, unclear public wording, avoidable trips, carer overload and fragmented data.
 
 The AI role should be plain: cleaner intake forms, source-dated evidence notes, public/private boundaries, consent-aware summaries, safer referral context, local dashboards and agent-readable Markdown files that humans can review.
 
@@ -84,8 +107,9 @@ The builders should ask:
 - If HBOT is involved, is it mask-fed PADS with adjustable breathing-gas mix and flow, rather than whole-chamber oxygen enrichment?
 - What mechanism is being tested or described: dissolved oxygen under pressure, heat stress, sweat cooling, liver/kidney/gut excretion, hormone disruption, inflammation, food, movement, microbiome, social connection or data flow?
 - What public line or testable hypothesis is being used, and what evidence supports it?
-- Is the evidence recognised, peer-reviewed, observational, early, anecdotal or not yet checked?
+- Is the evidence recognised, peer-reviewed, observational, early, anecdotal or ready for source checking?
 - What should be measured locally: dose, symptoms, sleep, energy, fasting window, hydration, electrolytes, skin-barrier comfort, access, adverse events, source dates, consent, cost pressure or public usefulness?
+- If this is a self-experiment, what is the baseline, variable, comparison, repeat plan, privacy layer and safety gate?
 - What safety, supervision, consent, maintenance, insurance and approval checks are needed?
 - What can be published publicly?
 - What must stay private, clinical, commercial-in-confidence or approval-gated?

@@ -31,7 +31,7 @@
     ["Public health cost data", "Public health cost data"],
     ["Promising but early research", "Promising but early research"],
     ["Anecdotal or local report", "Anecdotal or local report"],
-    ["Unsupported or not yet checked", "Unsupported or not yet checked"]
+    ["Source check needed", "Source check needed"]
   ];
 
   const yesNoOptions = [
@@ -51,7 +51,7 @@
 
   const boundaryFields = [
     { name: "publicSafe", label: "Public-safe wording", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "Plain public summary that can appear on a website, noticeboard, grant note or media brief." },
-    { name: "privateNotes", label: "Private or approval-gated notes", type: "textarea", group: "Private / approval-gated", rows: 4, private: true, placeholder: "Commercial, clinical, personal, permission-sensitive or unresolved notes that should not be published by default." },
+    { name: "privateNotes", label: "Private or approval-gated notes", type: "textarea", group: "Private / approval-gated", rows: 4, private: true, placeholder: "Commercial, clinical, personal, permission-sensitive or unresolved notes that stay private until approved." },
     { name: "approvalGate", label: "Approval gate before publishing", type: "textarea", group: "Private / approval-gated", rows: 3, private: true, placeholder: "Who must approve this before it becomes public?" }
   ];
 
@@ -97,11 +97,36 @@
         ...sourceTrailFields,
         { name: "mechanism", label: "Mechanism or pathway", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Explain the body pathway in plain language: oxygen pressure, HIF/VEGF, telomeres, senescent cells, stem/progenitor cells, heat stress, skin barrier flow, sweat cooling, fasting, liver/kidney/gut excretion, hormone disruption, inflammation, food, movement or data flow." },
         { name: "finding", label: "Main finding", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "What does the source actually say, and what does it not say?" },
-        { name: "limits", label: "Limits and cautions", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Systematic review limits, small sample, observational design, animal study, old data, conflict of interest, not specific to Straddie or not clinical advice." },
+        { name: "limits", label: "Review notes and cautions", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Systematic review limits, small sample, observational design, animal study, old data, conflict of interest, Straddie fit, clinical relevance or reviewer notes." },
         { name: "measurement", label: "What should be measured locally?", type: "textarea", group: "Next actions", rows: 4, placeholder: "Dose, attendance, symptoms, sleep, energy, recovery, safety incidents, access, cost, referrals, source dates, consent or public/private boundary." },
-        { name: "publicLine", label: "Public wording", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "A cautious sentence suitable for public pages, grant notes or media briefs. Keep mechanisms clear and avoid cure language." },
+        { name: "publicLine", label: "Public wording", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "A clear sentence suitable for public pages, grant notes or media briefs. Keep mechanisms, source dates and review status visible." },
         { name: "questionsRaised", label: "Questions this raises", type: "textarea", group: "Next actions", rows: 4, placeholder: "What should a venue, clinician, researcher, council, sponsor, insurer or community reviewer ask next?" },
         ...boundaryFields
+      ]
+    },
+    {
+      id: "self-experiment",
+      title: "Privacy-Preserving Self-Experiment Builder",
+      file: "straddie-vitality-self-experiment.md",
+      page: "self-experiment.html",
+      description: "Turns safe personal or venue experiments into consent-aware Markdown notes that protect raw data.",
+      claimBoundary: "Self-experiment notes should define the variable, baseline, comparison, consent, privacy layer, review gate and repeat-test plan.",
+      fields: [
+        ...baseMeta,
+        { name: "experimentName", label: "Experiment name", type: "text", group: "Experiment identity", placeholder: "Sauna cool-down test, fasting window check, beach walk plus PADS, subtle-material signal map" },
+        { name: "experimentType", label: "Experiment type", type: "select", group: "Experiment identity", options: [["Everyday self-experiment", "Everyday self-experiment"], ["Venue routine test", "Venue routine test"], ["N-of-1 repeated comparison", "N-of-1 repeated comparison"], ["Review-gated protocol", "Review-gated protocol"], ["Subtle-material hypothesis", "Subtle-material hypothesis"], ["Privacy-preserving aggregate study", "Privacy-preserving aggregate study"]] },
+        { name: "question", label: "Question being tested", type: "textarea", group: "Experiment identity", rows: 3, placeholder: "What practical question is being tested, in one clean sentence?" },
+        { name: "variable", label: "Variable or exposure", type: "textarea", group: "Protocol", rows: 4, placeholder: "Sauna minutes, cool-down, fasting window, added-sugar pause, PADS gas mix or flow, pressure, scent, light, sound, haptics, material ID, walk location, breathwork or sleep routine." },
+        { name: "baseline", label: "Baseline period", type: "textarea", group: "Protocol", rows: 3, placeholder: "What is measured before the change? Include ordinary routine, dates, sleep, food, stress, activity and any venue conditions." },
+        { name: "comparison", label: "Comparison or repeat plan", type: "textarea", group: "Protocol", rows: 4, placeholder: "A/B, baseline/intervention/recovery, repeat days, randomisation, blinding where practical, washout period, or simple before/after with source dates." },
+        { name: "signals", label: "Signals to collect", type: "textarea", group: "Data and privacy", rows: 4, placeholder: "Sleep, HRV, resting heart rate, SpO2, skin temperature, sweat response, mood, energy, pain, focus, reaction time, grip strength, fasting window, symptoms or attendance." },
+        { name: "privacyLayer", label: "Privacy layer", type: "textarea", group: "Data and privacy", rows: 4, placeholder: "Raw data stays with participant or venue. Shared output is aggregated, de-identified, thresholded, consented, source-dated and removable where possible." },
+        { name: "safetyReview", label: "Safety and review gates", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Heat, pressure, fasting, medication, pregnancy, diabetes, kidney or heart issues, cognitive impairment, clinical reviewer, venue supervisor, stop rules and escalation path." },
+        { name: "subtleSignal", label: "Subtle or etheric hypothesis", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "If the intuition is energetic, symbolic, ritual, material, place-based or field-like, translate it into logged variables and measurable signals." },
+        ...sourceTrailFields,
+        { name: "publicOutput", label: "Public output", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "What can be shared publicly: method, aggregate pattern, source trail, venue learning, next test or invitation to participate." },
+        ...boundaryFields,
+        { name: "nextSteps", label: "Next experiment steps", type: "textarea", group: "Next actions", rows: 4, placeholder: "Check sources, define consent, run baseline, test once, repeat, aggregate, review, publish a public-safe update." }
       ]
     },
     {
@@ -110,7 +135,7 @@
       file: "straddie-vitality-venue-readiness.md",
       page: "venue-readiness.html",
       description: "Checks whether a venue could host sauna, HBOT/PADS, food, movement or recovery activity.",
-      claimBoundary: "Venue readiness is not clinical approval. It collects practical checks for further review.",
+      claimBoundary: "Venue readiness collects practical checks for safety, access, operations and reviewer follow-up.",
       fields: [
         ...baseMeta,
         { name: "venueName", label: "Venue name", type: "text", group: "Venue identity", placeholder: "Club, clinic, accommodation, community hall, sports facility, private site or mobile node" },
@@ -118,7 +143,7 @@
         { name: "serviceFit", label: "Service fit", type: "checkbox-group", group: "Venue identity", options: [["hbot", "HBOT / mask-fed PADS"], ["sauna", "Sauna"], ["food", "Healthy food"], ["movement", "Exercise / movement"], ["recovery", "Recovery or rest"], ["education", "Education or workshops"], ["noticeboard", "Public notices"]] },
         { name: "siteStrengths", label: "Site strengths", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "Access, privacy, water, power, shade, parking, staff, community trust, existing visitors, nearby services." },
         { name: "siteGaps", label: "Site gaps", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Power limits, fire risk, ventilation, supervision, insurance, accessibility, noise, privacy, approvals, cleaning, maintenance." },
-        { name: "supervision", label: "Supervision and staffing", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Who would supervise, what training is needed, when health professionals are required, and what must not operate unsupervised." },
+        { name: "supervision", label: "Supervision and staffing", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Who would supervise, what training is needed, when health professionals are required, and which parts require supervised operation." },
         { name: "communityFit", label: "Community fit", type: "textarea", group: "Public-safe summary", rows: 3, placeholder: "How the venue model supports residents, visitors, elders, workers, athletes or public/private access." },
         ...sourceTrailFields,
         ...boundaryFields,
@@ -171,7 +196,7 @@
         { name: "safetyPlan", label: "Heat safety and screening", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Hydration, electrolytes, heat limits, cool-down, alcohol policy, medical cautions, pregnancy, fainting risk, staff supervision, privacy and emergency response." },
         { name: "operations", label: "Operations and maintenance", type: "textarea", group: "Risk, safety and approvals", rows: 3, placeholder: "Booking, cleaning, power or wood source, water, ventilation, staffing, maintenance, fire control." },
         ...sourceTrailFields,
-        { name: "skinSweatBoundary", label: "Skin and sweat boundary", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "What can be said about sweat, thermoregulation, skin, circulation or toxin questions without promising detoxification?" },
+        { name: "skinSweatBoundary", label: "Skin and sweat boundary", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "What can be said about sweat, thermoregulation, skin, circulation or toxin questions with measured evidence?" },
         { name: "athleteAngle", label: "Athlete or performance angle", type: "textarea", group: "Evidence and source trail", rows: 3, placeholder: "Heat acclimation, endurance, recovery, scheduling after exercise, hydration, coach review and health-professional review." },
         ...boundaryFields,
         { name: "nextSteps", label: "Next sauna checks", type: "textarea", group: "Next actions", rows: 4, placeholder: "Venue inspection, supplier quote, safety policy, grant pathway, public notice or partner brief." }
@@ -235,7 +260,7 @@
         { name: "accessFocus", label: "Access focus", type: "text", group: "Access focus", placeholder: "Elders, low-income locals, athletes, visitors, carers, workers, disability access, First Nations access, private citizens" },
         { name: "barriers", label: "Likely barriers", type: "textarea", group: "Access and inclusion", rows: 4, placeholder: "Cost, transport, stigma, mobility, cultural safety, privacy, health screening, language, digital access, timing." },
         { name: "supports", label: "Practical supports", type: "textarea", group: "Access and inclusion", rows: 4, placeholder: "Subsidies, local nights, carer access, transport, ramps, quiet sessions, gender/privacy options, public information." },
-        { name: "consent", label: "Consent and privacy", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "What consent is needed? What data is collected? What should not be public?" },
+        { name: "consent", label: "Consent and privacy", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "What consent is needed? What data is collected? What stays private or approval-gated?" },
         { name: "publicAccess", label: "Public/private access model", type: "select", group: "Access focus", options: modelOptions },
         ...sourceTrailFields,
         ...boundaryFields,
@@ -248,7 +273,7 @@
       file: "straddie-vitality-risk-safety-boundaries.md",
       page: "risk-safety-boundaries.html",
       description: "Creates a risk, safety, privacy and public-wording boundary note before public use.",
-      claimBoundary: "This builder is a triage tool only. It does not replace legal, medical, WHS, insurance or regulatory advice.",
+      claimBoundary: "This builder creates a triage note to sit beside legal, medical, WHS, insurance and regulatory advice.",
       fields: [
         ...baseMeta,
         { name: "riskScope", label: "Risk scope", type: "checkbox-group", group: "Risk scope", options: [["hbot", "HBOT / mask-fed PADS"], ["sauna", "Sauna / heat"], ["fasting", "Fasting / refeeding"], ["skin-filter", "Skin filter / barrier"], ["food", "Food"], ["movement", "Movement"], ["data", "Data / privacy"], ["venue", "Venue"], ["media", "Public media"], ["children", "Children or vulnerable people"], ["clinical", "Clinical-adjacent use"]] },
@@ -319,7 +344,7 @@
         { name: "whoShouldCare", label: "Who should care?", type: "textarea", group: "Public-safe summary", rows: 3, placeholder: "Residents, venues, sponsors, health workers, athletes, visitors, elders, carers, government or community groups." },
         { name: "noticeBody", label: "Public notice body", type: "textarea", group: "Public-safe summary", rows: 5, placeholder: "Clear public wording. Mention draft status and review needs if not final." },
         { name: "actionRequested", label: "Public action requested", type: "textarea", group: "Next actions", rows: 3, placeholder: "Give feedback, attend session, offer venue, sponsor, review source, join planning, share public information." },
-        { name: "doNotPublish", label: "Do not publish", type: "textarea", group: "Private / approval-gated", rows: 4, private: true, placeholder: "Private health, commercial, cultural, legal, sponsor, supplier or personal details." },
+        { name: "doNotPublish", label: "Keep private", type: "textarea", group: "Private / approval-gated", rows: 4, private: true, placeholder: "Private health, commercial, cultural, legal, sponsor, supplier or personal details." },
         ...sourceTrailFields,
         ...boundaryFields
       ]
@@ -329,8 +354,8 @@
       title: "Hyperlocal Media Brief Builder",
       file: "straddie-vitality-media-brief.md",
       page: "media-brief.html",
-      description: "Creates a cautious brief for hyperlocal news, public media or project storytelling.",
-      claimBoundary: "Media briefs should explain public interest, evidence status and uncertainty without hype.",
+      description: "Creates a grounded brief for hyperlocal news, public media or project storytelling.",
+      claimBoundary: "Media briefs should explain public interest, evidence status, uncertainty and review pathway clearly.",
       fields: [
         ...baseMeta,
         { name: "storyAngle", label: "Story angle", type: "textarea", group: "Media identity", rows: 3, placeholder: "What makes this useful, local, timely or publicly relevant?" },
@@ -355,7 +380,7 @@
         { name: "policyTopic", label: "Policy or legal topic", type: "text", group: "Policy identity", placeholder: "Local government funding, health regulation, medical devices, aged care, privacy, grants, co-operatives" },
         { name: "currentStatus", label: "Current status", type: "select", group: "Policy identity", options: [["Watch only", "Watch only"], ["Submission lodged", "Submission lodged"], ["Inquiry active", "Inquiry active"], ["Regulator guidance needed", "Regulator guidance needed"], ["Legal advice needed", "Legal advice needed"], ["Ready for public summary", "Ready for public summary"]] },
         { name: "dependency", label: "What depends on this?", type: "textarea", group: "Policy identity", rows: 4, placeholder: "What project decision, funding path, device model, data model or public statement depends on legal clarity?" },
-        { name: "inactiveBoundary", label: "Inactive-system boundary", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Name anything that must not be launched, promised, invited or recorded until legal/regulatory clarity exists." },
+        { name: "inactiveBoundary", label: "Inactive-system boundary", type: "textarea", group: "Risk, safety and approvals", rows: 4, placeholder: "Name anything that stays inactive until legal/regulatory clarity exists." },
         { name: "governmentLine", label: "Government-facing line", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "Plain wording suitable for agencies or elected representatives." },
         { name: "legalQuestions", label: "Questions for legal or policy review", type: "textarea", group: "Next actions", rows: 4, placeholder: "What needs an answer before public implementation?" },
         ...sourceTrailFields,
@@ -375,7 +400,7 @@
         { name: "audience", label: "Audience for the output", type: "select", group: "Handoff identity", options: [["General public", "General public"], ["Government", "Government"], ["Venue partner", "Venue partner"], ["Sponsor", "Sponsor"], ["Grant assessor", "Grant assessor"], ["Health reviewer", "Health reviewer"], ["Noticeboard editor", "Noticeboard editor"], ["Internal review only", "Internal review only"]] },
         { name: "inputs", label: "Input files or source links", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Builder outputs, evidence links, source docs, public pages, grant pages or venue notes." },
         { name: "mustPreserve", label: "Must preserve", type: "textarea", group: "Handoff instructions", rows: 4, placeholder: "Australian English, public/private boundary, cautious evidence wording, source dates, review status and public-safe scope." },
-        { name: "mustAvoid", label: "Must keep out of public output", type: "textarea", group: "Handoff instructions", rows: 4, placeholder: "Private notes in public pages, personal chat context, hype, unresolved contribution-credit implementation, hidden source dates or unreviewed clinical wording." },
+        { name: "mustAvoid", label: "Keep out of public output", type: "textarea", group: "Handoff instructions", rows: 4, placeholder: "Private notes in public pages, personal chat context, unresolved contribution-credit implementation, hidden source dates or unreviewed clinical wording." },
         { name: "outputNeeded", label: "Output needed", type: "textarea", group: "Handoff instructions", rows: 3, placeholder: "Markdown file, grant note, noticeboard post, source trail, public page, review memo, partner email." },
         ...boundaryFields,
         { name: "nextSteps", label: "Immediate next steps", type: "textarea", group: "Next actions", rows: 4, placeholder: "Search, verify, draft, review, test export, update page, prepare public copy." }
