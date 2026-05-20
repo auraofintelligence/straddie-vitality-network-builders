@@ -352,6 +352,14 @@
     "use_in_project": "Wearable-data strengths, limitations, within-person tracking and cross-device comparison cautions."
   },
   {
+    "title": "Community Ledger",
+    "publisher": "Strange But True",
+    "url": "https://auraofintelligence.github.io/strange-but-true/community-ledger.html",
+    "published_or_updated": "2026",
+    "accessed": "2026-05-20",
+    "use_in_project": "Public Honour Board bridge pattern: trust first, optional public wallet references, XRP common transaction track, ICI as I See Infinity token example, personal/project meme tokens and future C-hour watch lane."
+  },
+  {
     "title": "Local Government Funding Inquiry Submission",
     "publisher": "Local project source document",
     "url": "Private local source document; do not publish the local filesystem path.",

@@ -351,6 +351,34 @@
       ]
     },
     {
+      id: "honour-board-bridge",
+      title: "Public Honour Board Bridge Builder",
+      file: "straddie-vitality-honour-board-bridge.md",
+      page: "honour-board-bridge.html",
+      description: "Prepares an opt-in public support record for the Honour Board, XRP common track, personal/project token trail and future contribution-credit lane.",
+      claimBoundary: "This builder records public acknowledgement and optional public transaction references only. XRP is the common public transaction track. ICI-on-Solana is the I See Infinity token example, while other people or projects may use their own meme/community token. C-hour remains a future legal/policy lane, not an active token system here.",
+      fields: [
+        ...baseMeta,
+        { name: "displayName", label: "Public display name", type: "text", group: "Public profile", placeholder: "Person, family, venue, sponsor, crew name or anonymous public label" },
+        { name: "profileUrl", label: "Public profile or context link", type: "url", group: "Public profile", placeholder: "Optional profile.md, project page, venue page or supporter context link" },
+        { name: "supportedProject", label: "Project supported", type: "text", group: "Support record", placeholder: "Straddie Vitality, Amity sauna pilot, HBOT/PADS readiness, Shared Table, grants lab, public noticeboard, elder onboarding" },
+        { name: "supportType", label: "Support type", type: "checkbox-group", group: "Support record", options: [["paid-work", "Paid project work"], ["sponsorship", "Sponsorship"], ["public-donation", "Public donation"], ["venue-support", "Venue or equipment support"], ["volunteer-time", "Volunteer time"], ["elder-support", "Parent or elder support"], ["research-review", "Evidence or review work"], ["media", "Public media or noticeboard support"], ["other", "Other support"]] },
+        { name: "servicePaidFor", label: "Service or work paid for", type: "textarea", group: "Support record", rows: 3, placeholder: "Grant writing, project mapping, public page work, evidence review, agent flow, venue note, equipment support, elder onboarding or another named task." },
+        { name: "publicAmount", label: "Public amount or value note", type: "text", group: "Support record", placeholder: "Amount if public, or 'value private', 'volunteer time', 'in-kind support', 'receipt held privately'" },
+        { name: "walletRail", label: "Public wallet track", type: "select", group: "Public wallet trail", options: [["No public wallet", "No public wallet"], ["XRP common track", "XRP common track"], ["ICI token on Solana - I See Infinity", "ICI token on Solana - I See Infinity"], ["Own meme/community token", "Own meme/community token"], ["Other public ledger later", "Other public ledger later"], ["Future C-hour watch only", "Future C-hour watch only"]] },
+        { name: "tokenIdentity", label: "Token identity", type: "text", group: "Public wallet trail", placeholder: "XRP common track, ICI for I See Infinity, or the person's/project's own meme/community token name and network." },
+        { name: "walletDisplay", label: "Wallet display label", type: "text", group: "Public wallet trail", placeholder: "Public wallet nickname or short address label. Do not include private keys or seed phrases." },
+        { name: "transactionReference", label: "Public transaction reference", type: "textarea", group: "Public wallet trail", rows: 3, placeholder: "XRP transaction hash for the common track, Solana signature for ICI or another meme/community token, explorer link, receipt ID, or 'not public yet'. Keep account access details private." },
+        { name: "honourBoardLine", label: "Honour Board line", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "One clear public line: who supported what, why it mattered, what work moved forward, and whether wallet/value details are public or private." },
+        { name: "futureCHour", label: "Future C-hour pathway", type: "textarea", group: "Policy watch", rows: 3, placeholder: "If this might later become verified contribution evidence, describe the kind of contribution and the legal/policy clarity needed before any C-hour implementation." },
+        { name: "consent", label: "Public consent recorded", type: "select", group: "Risk, safety and approvals", options: [["Not yet", "Not yet"], ["Yes - public name and project only", "Yes - public name and project only"], ["Yes - include public transaction reference", "Yes - include public transaction reference"], ["Anonymous public record only", "Anonymous public record only"], ["Private record only", "Private record only"]] },
+        { name: "keepPrivate", label: "Keep private", type: "textarea", group: "Private / approval-gated", rows: 4, private: true, placeholder: "Private wallet details, seed phrases, balances, unrelated transaction history, health notes, family details, invoices, legal advice or sponsor terms." },
+        ...sourceTrailFields,
+        ...boundaryFields,
+        { name: "nextSteps", label: "Next ledger steps", type: "textarea", group: "Next actions", rows: 4, placeholder: "Confirm consent, verify public transaction reference, publish Honour Board line, keep private receipt, update Strange But True ledger, or send to policy watch." }
+      ]
+    },
+    {
       id: "media-brief",
       title: "Hyperlocal Media Brief Builder",
       file: "straddie-vitality-media-brief.md",
