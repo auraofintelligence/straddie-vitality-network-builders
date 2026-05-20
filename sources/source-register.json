@@ -40,6 +40,14 @@
     "use_in_project": "Reference path for recognised HBOT indication review."
   },
   {
+    "title": "Aura Geode PADS architecture notes",
+    "publisher": "Local project source document",
+    "url": "Private local source document; do not publish the local filesystem path.",
+    "published_or_updated": "Local source",
+    "accessed": "2026-05-20",
+    "use_in_project": "Cleaner PADS framing: mask-fed personalised atmosphere delivery, adjustable gas mix and flow, normal chamber air, sensor-aware safety design."
+  },
+  {
     "title": "Association Between Sauna Bathing and Fatal Cardiovascular and All-Cause Mortality Events",
     "publisher": "JAMA Internal Medicine",
     "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724",

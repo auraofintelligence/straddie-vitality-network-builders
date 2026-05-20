@@ -8,7 +8,7 @@ The toolkit helps venues, community groups, health partners, sponsors and public
 
 This repo is designed for public and government-facing planning. Public pages avoid private working notes, personal chat context and unsupported medical claims. Builder outputs separate public-safe information from private or approval-gated notes.
 
-HBOT is treated as a supervised health technology with strict safety, professional oversight and claim-boundary requirements. Sauna and heat exposure are treated as wellbeing and performance-support practices where evidence is promising but should not be overstated.
+HBOT is treated as a supervised health technology with strict safety, professional oversight and claim-boundary requirements. The preferred technical direction is an air-pressurised chamber with mask-fed PADS, a Personalised Atmosphere Delivery System that can adjust flow and gas mix while keeping the chamber environment safer for sensors, monitoring and electronics. Sauna and heat exposure are treated as wellbeing and performance-support practices where evidence is promising but should not be overstated.
 
 Contribution-credit or time-token systems are not implemented in this repo. Any future contribution economy model remains inactive until there is clear legal and regulatory support.
 
