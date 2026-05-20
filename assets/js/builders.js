@@ -87,7 +87,7 @@
       fields: [
         ...baseMeta,
         { name: "researchQuestion", label: "Research question", type: "textarea", group: "Evidence focus", rows: 3, placeholder: "What question is this source supposed to help answer?" },
-        { name: "topic", label: "Topic", type: "select", group: "Evidence focus", options: [["HBOT / mask-fed PADS", "HBOT / mask-fed PADS"], ["Sauna / heat exposure", "Sauna / heat exposure"], ["Food and movement", "Food and movement"], ["Dementia and ageing", "Dementia and ageing"], ["Toxicity / exposure", "Toxicity / exposure"], ["Athletic performance", "Athletic performance"], ["Access and inclusion", "Access and inclusion"], ["Funding or policy", "Funding or policy"]] },
+        { name: "topic", label: "Topic", type: "select", group: "Evidence focus", options: [["HBOT / mask-fed PADS", "HBOT / mask-fed PADS"], ["Sauna / heat exposure", "Sauna / heat exposure"], ["Food and movement", "Food and movement"], ["Dementia and ageing", "Dementia and ageing"], ["Toxicity / exposure", "Toxicity / exposure"], ["Athletic performance", "Athletic performance"], ["Microbiome / gut health", "Microbiome / gut health"], ["Access and inclusion", "Access and inclusion"], ["Health-system cost", "Health-system cost"], ["Funding or policy", "Funding or policy"]] },
         ...sourceTrailFields,
         { name: "finding", label: "Main finding", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "What does the source actually say?" },
         { name: "limits", label: "Limits and cautions", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Small sample, observational design, animal study, not specific to Straddie, not clinical advice, conflict of interest, old data." },
@@ -259,6 +259,7 @@
         { name: "eligibleCosts", label: "Possible eligible costs", type: "textarea", group: "Grant identity", rows: 3, placeholder: "Equipment, fit-out, training, access support, research, public information, food, movement, safety, reporting." },
         { name: "evidenceReady", label: "Evidence already ready", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Quotes, letters, studies, venue checks, community need, public data, source links." },
         { name: "evidenceNeeded", label: "Evidence still needed", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "What has to be gathered before application writing starts?" },
+        { name: "systemPressure", label: "Health-system pressure or cost context", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "Medicare, PBS, NDIS, My Aged Care, private health insurance, hospital pressure, carer burden, prevention or local access costs that make the project relevant." },
         { name: "reporting", label: "Reporting and acquittal evidence", type: "textarea", group: "Next actions", rows: 4, placeholder: "Attendance, feedback, safety records, photos, invoices, public notices, source updates, outcomes." },
         ...sourceTrailFields,
         ...boundaryFields
@@ -278,6 +279,7 @@
         { name: "benefit", label: "Public benefit case", type: "textarea", group: "Public-safe summary", rows: 4, placeholder: "Who benefits and why this is a useful local investment." },
         { name: "partnerValue", label: "Value for the partner", type: "textarea", group: "Public-safe summary", rows: 3, placeholder: "Public goodwill, clear reporting, local participation, responsible innovation, evidence gathering, safer visitor economy." },
         { name: "evidencePitch", label: "Evidence line for the pitch", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "The strongest evidence-backed line, with cautious wording and source date." },
+        { name: "systemFit", label: "System fit", type: "textarea", group: "Evidence and source trail", rows: 4, placeholder: "How the project sits beside Medicare, PBS, NDIS, My Aged Care, private health insurance, sport, tourism, workplace wellbeing or local public health." },
         { name: "sponsorBoundaries", label: "Sponsor boundaries", type: "textarea", group: "Risk, safety and approvals", rows: 3, placeholder: "No medical overclaiming, privacy, data ownership, cultural permissions, approval before public logo use." },
         ...sourceTrailFields,
         ...boundaryFields,

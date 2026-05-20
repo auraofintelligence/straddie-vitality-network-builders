@@ -361,6 +361,7 @@ select:focus-visible {
 
 .evidence-feature-grid,
 .evidence-lane-grid,
+.system-stat-grid,
 .source-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -483,6 +484,48 @@ select:focus-visible {
   border-top: 1px solid var(--line);
   color: var(--muted);
   font: 800 0.84rem var(--heading);
+}
+
+.system-stat {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.system-stat strong {
+  display: block;
+  color: var(--ink);
+  font: 900 1.7rem var(--heading);
+  line-height: 1;
+}
+
+.system-stat span {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.system-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.system-links a {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--ink);
+  text-decoration: none;
+  font: 900 0.82rem var(--heading);
 }
 
 .builder-card {
@@ -820,6 +863,7 @@ small {
   .builder-grid,
   .evidence-feature-grid,
   .evidence-lane-grid,
+  .system-stat-grid,
   .source-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -894,6 +938,7 @@ small {
   .builder-grid,
   .evidence-feature-grid,
   .evidence-lane-grid,
+  .system-stat-grid,
   .source-grid,
   .builder-pager {
     grid-template-columns: 1fr;

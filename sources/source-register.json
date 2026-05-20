@@ -88,6 +88,54 @@
     "use_in_project": "Prevention and modifiable risk factor context."
   },
   {
+    "title": "Health expenditure Australia 2023-24",
+    "publisher": "Australian Institute of Health and Welfare",
+    "url": "https://www.aihw.gov.au/reports/health-welfare-expenditure/health-expenditure-australia-2023-24",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-20",
+    "use_in_project": "Australian health-system cost context for prevention, hospitals and public investment."
+  },
+  {
+    "title": "What Medicare covers",
+    "publisher": "Australian Government Department of Health, Disability and Ageing",
+    "url": "https://www.health.gov.au/topics/medicare/about/what-medicare-covers",
+    "published_or_updated": "2024",
+    "accessed": "2026-05-20",
+    "use_in_project": "Medicare and PBS boundary for public planning and referral-safe wording."
+  },
+  {
+    "title": "PBS Expenditure and Prescriptions 2024-25",
+    "publisher": "Pharmaceutical Benefits Scheme",
+    "url": "https://m3.pbs.gov.au/statistics/expenditure-prescriptions/2024-2025/Expenditure-prescriptions-report-tables-2024-25.PDF",
+    "published_or_updated": "2026",
+    "accessed": "2026-05-20",
+    "use_in_project": "PBS medicine-cost and medicine-context evidence for health-system framing."
+  },
+  {
+    "title": "NDIA Annual Report 2024-25",
+    "publisher": "National Disability Insurance Agency",
+    "url": "https://www.ndis.gov.au/media/8108/download?attachment=",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-20",
+    "use_in_project": "NDIS participant, average payment and disability-support context."
+  },
+  {
+    "title": "Spending on aged care",
+    "publisher": "GEN Aged Care Data",
+    "url": "https://www.gen-agedcaredata.gov.au/topics/spending-on-aged-care",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-20",
+    "use_in_project": "Aged-care spending context for My Aged Care, residential care, home care and support pathways."
+  },
+  {
+    "title": "2026 Private Health Insurance Premiums",
+    "publisher": "Australian Government Department of Health, Disability and Ageing",
+    "url": "https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/2026-private-health-insurance-premiums?language=en",
+    "published_or_updated": "2026-02-17",
+    "accessed": "2026-05-20",
+    "use_in_project": "Private health insurance cost-pressure context."
+  },
+  {
     "title": "Local Government Funding Inquiry Submission",
     "publisher": "Local project source document",
     "url": "Private local source document; do not publish the local filesystem path.",
