@@ -1,0 +1,6 @@
+drafts/*.md
+drafts/*.json
+!drafts/README.md
+private/
+scratch/
+*.log

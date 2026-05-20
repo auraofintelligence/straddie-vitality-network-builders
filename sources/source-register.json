@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Dementia in Australia",
+    "publisher": "Australian Institute of Health and Welfare",
+    "url": "https://www.aihw.gov.au/reports/dementia/dementia-in-aus/contents/summary",
+    "published_or_updated": "2025-12-05",
+    "accessed": "2026-05-20",
+    "use_in_project": "Australian dementia prevalence, deaths, risk factors and public-health context."
+  },
+  {
+    "title": "Dementia",
+    "publisher": "World Health Organization",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "published_or_updated": "2025-03-31",
+    "accessed": "2026-05-20",
+    "use_in_project": "Global dementia context, risk factors and public self-care framing."
+  },
+  {
+    "title": "Risk of fire during use of hyperbaric chambers",
+    "publisher": "Therapeutic Goods Administration",
+    "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers",
+    "published_or_updated": "2025-10-10",
+    "accessed": "2026-05-20",
+    "use_in_project": "HBOT safety, qualified supervision, fire prevention and consumer caution."
+  },
+  {
+    "title": "Follow Instructions for Safe Use of Hyperbaric Oxygen Therapy Devices",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-20",
+    "use_in_project": "HBOT device safety and instruction-following context."
+  },
+  {
+    "title": "HBO Indications",
+    "publisher": "Undersea and Hyperbaric Medical Society",
+    "url": "https://www.uhms.org/resources/featured-resources/hbo-indications.html",
+    "published_or_updated": "2020",
+    "accessed": "2026-05-20",
+    "use_in_project": "Reference path for recognised HBOT indication review."
+  },
+  {
+    "title": "Association Between Sauna Bathing and Fatal Cardiovascular and All-Cause Mortality Events",
+    "publisher": "JAMA Internal Medicine",
+    "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724",
+    "published_or_updated": "2015-02-23",
+    "accessed": "2026-05-20",
+    "use_in_project": "Sauna observational evidence and cautious cardiovascular wording."
+  },
+  {
+    "title": "Effect of post-exercise sauna bathing on the endurance performance of competitive male runners",
+    "publisher": "PubMed / Journal of Science and Medicine in Sport",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16877041/",
+    "published_or_updated": "2007",
+    "accessed": "2026-05-20",
+    "use_in_project": "Athlete heat-acclimation and endurance-performance research line."
+  },
+  {
+    "title": "Effects of Pre-, Post- and Intra-Exercise Hyperbaric Oxygen Therapy on Performance and Recovery",
+    "publisher": "PubMed / Frontiers in Physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34887780/",
+    "published_or_updated": "2021-11-23",
+    "accessed": "2026-05-20",
+    "use_in_project": "HBOT and athlete recovery research boundary."
+  },
+  {
+    "title": "Per- and polyfluoroalkyl substances (PFAS)",
+    "publisher": "Australian Centre for Disease Control",
+    "url": "https://www.cdc.gov.au/topics/environmental-health/and-polyfluoroalkyl-substances-pfas",
+    "published_or_updated": "2025",
+    "accessed": "2026-05-20",
+    "use_in_project": "PFAS exposure context and cautious toxicity wording."
+  },
+  {
+    "title": "Australian Burden of Disease Study 2024",
+    "publisher": "Australian Institute of Health and Welfare",
+    "url": "https://www.aihw.gov.au/reports/burden-of-disease/australian-burden-of-disease-study-2024",
+    "published_or_updated": "2024-12-12",
+    "accessed": "2026-05-20",
+    "use_in_project": "Prevention and modifiable risk factor context."
+  },
+  {
+    "title": "Local Government Funding Inquiry Submission",
+    "publisher": "Local project source document",
+    "url": "Private local source document; do not publish the local filesystem path.",
+    "published_or_updated": "Local source",
+    "accessed": "2026-05-20",
+    "use_in_project": "Policy-watch boundary for any future contribution-credit model; no implementation in this repo."
+  }
+]
