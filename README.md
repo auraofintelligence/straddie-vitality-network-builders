@@ -15,6 +15,8 @@ Contribution-credit or time-token systems are not implemented in this repo. Any 
 ## Pages
 
 - `index.html` - public gateway and evidence summary
+- `evidence.html` - public evidence hub
+- `sources.html` - human-readable source register
 - `builders/index.html` - builder directory
 - `builders/*.html` - individual Markdown builders
 - `docs/research-baseline.md` - current evidence summary and source links

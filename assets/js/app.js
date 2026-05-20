@@ -37,8 +37,8 @@
         <nav class="site-nav" id="site-nav" data-site-nav>
           <a href="${prefix}index.html" ${current === "home" ? 'aria-current="page"' : ""}>Home</a>
           <a href="${prefix}builders/index.html" ${current === "builders" || current === "builder" ? 'aria-current="page"' : ""}>Builders</a>
-          <a href="${prefix}docs/research-baseline.md">Evidence</a>
-          <a href="${prefix}sources/source-register.json">Sources</a>
+          <a href="${prefix}evidence.html" ${current === "evidence" ? 'aria-current="page"' : ""}>Evidence</a>
+          <a href="${prefix}sources.html" ${current === "sources" ? 'aria-current="page"' : ""}>Sources</a>
         </nav>
       </div>
     `;
@@ -97,18 +97,30 @@
     return `field-${field.name}`;
   }
 
+  function fieldHints(field) {
+    const hints = [];
+    if (field.helper) {
+      hints.push(`<span>${escapeHtml(field.helper)}</span>`);
+    }
+    if (field.placeholder) {
+      const isExample = /^e\.g\./i.test(field.placeholder.trim());
+      const text = field.placeholder.trim().replace(/^e\.g\.\s*/i, "");
+      hints.push(`<span><strong>${isExample ? "Example" : "Prompt"}:</strong> ${escapeHtml(text)}</span>`);
+    }
+    return hints.length ? `<small class="field-hints">${hints.join("")}</small>` : "";
+  }
+
   function fieldMarkup(field) {
     const id = fieldId(field);
-    const helper = field.helper ? `<small>${escapeHtml(field.helper)}</small>` : "";
-    const placeholder = field.placeholder ? ` placeholder="${escapeHtml(field.placeholder)}"` : "";
+    const hints = fieldHints(field);
     const privateFlag = field.private ? `<span class="field-flag">Private / approval-gated</span>` : "";
 
     if (field.type === "textarea") {
       return `
         <label class="field field-wide" for="${id}">
           <span>${escapeHtml(field.label)}${privateFlag}</span>
-          <textarea id="${id}" name="${field.name}" rows="${field.rows || 4}"${placeholder}></textarea>
-          ${helper}
+          <textarea id="${id}" name="${field.name}" rows="${field.rows || 4}" wrap="soft"></textarea>
+          ${hints}
         </label>
       `;
     }
@@ -120,7 +132,7 @@
           <select id="${id}" name="${field.name}">
             ${(field.options || []).map(([value, label]) => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`).join("")}
           </select>
-          ${helper}
+          ${hints}
         </label>
       `;
     }
@@ -134,7 +146,7 @@
               <label><input type="checkbox" name="${field.name}" value="${escapeHtml(value)}"> ${escapeHtml(label)}</label>
             `).join("")}
           </div>
-          ${helper}
+          ${hints}
         </fieldset>
       `;
     }
@@ -143,8 +155,8 @@
     return `
       <label class="field" for="${id}">
         <span>${escapeHtml(field.label)}${privateFlag}</span>
-        <input id="${id}" name="${field.name}" type="${type}"${placeholder}>
-        ${helper}
+        <input id="${id}" name="${field.name}" type="${type}">
+        ${hints}
       </label>
     `;
   }
